@@ -1,0 +1,58 @@
+* {
+  font-family:Roboto,sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header {
+  background-color: #1f2347;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.logo{
+  font-size: 24px;
+  font-weight: 700;
+
+}
+.qualitytext{
+  color: #3882f6;
+}
+
+.carstext {
+  color: #f9faf8;
+}
+
+
+ul{
+  display: flex;
+  gap: 10px;
+}
+
+.footer{
+  margin-top: auto;
+  background-color: #1f2347;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+a{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+li{
+  list-style-type: none;
+  
+}
+
+
+
