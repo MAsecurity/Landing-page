@@ -1,5 +1,4 @@
 * {
-  font-family:Roboto,sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -8,14 +7,28 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family:Roboto, sans-serif;
+  
+}
+
+.section1 {
+  background-color: #1f2347;
 }
 .header {
-  background-color: #1f2347;
   display: flex;
-  justify-content: space-between;
+  
   
   
 }
+
+.nav-left,.nav-right {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .logo{
   font-size: 24px;
   font-weight: 700;
@@ -32,7 +45,7 @@ body{
 
 ul{
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 .footer{
@@ -49,10 +62,97 @@ a{
   color: #e5e7eb;
   font-size: 18px;
 }
+
+
 li{
   list-style-type: none;
   
 }
 
+p {
+  color: #e5e7eb;
+}
 
+
+.h1{
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+
+.sign_up-in-section1{
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 95px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  font-size: 15px;
+
+}
+
+.sign_up-in-section1:hover{
+  opacity: 0.8;
+
+}
+.sign_up-in-section1:active {
+  opacity: 0.5;
+}
+
+.Image{
+  height: 250px;
+  width: auto;
+  margin: 50px;
+  transition: 0.15s;
+}
+.Image:hover {
+  opacity: 0.8;
+  height: 300px;
+  width: auto;
+  
+  
+  
+  
+
+}
+
+.content {
+  display: flex;
+  margin: 50px;
+
+}
+
+.content-left,.content-right{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  
+
+}
+.content-left {
+  margin-left: 100px;
+
+
+}
+.content-right{
+  align-items: center;
+}
+
+
+.section2 {
+  background: white;
+}
+
+.infoheader-section2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
 
