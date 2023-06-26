@@ -6,6 +6,8 @@
 - Flexbox
 - Box-model(padding, margins, and so on)
 - Classes and ID's
+- Using hover and active selectors to manipulate opacity and sizes of buttons and images
+
 
 
 
