@@ -228,3 +228,69 @@ p {
   font-size: 18px;
 }
 
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+
+
+
+}
+
+.Section4-cont {
+  background-color: #3882f6;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  height: 40%;
+  
+}
+
+.section4-left {
+  width: 80%;
+}
+
+
+.Section4-signup{
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 95px;
+  height: 35px;
+  border-radius: 4px;
+  border-color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  font-size: 15px;
+
+}
+
+.Section4-signup:hover{
+  opacity: 0.8;
+
+}
+.Section4-signup:active {
+  opacity: 0.5;
+}
+
+
+.section4-left{
+  width: 80%;
+}
+
+.section4-heading {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.section4-p{
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+
