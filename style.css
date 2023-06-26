@@ -185,23 +185,46 @@ p {
   border-radius: 20px;
   transition: 0.15s;
 
- 
-
-
 }
 .imgins2:hover{
   border-color: rgb(56,130,246,0.5);
   border-width: 5px;
-
-
+  
 }
 
 .container-for-images-in-s2:hover {
   width: 170px;
   height: 170px;
+  
 
 }
 .pins2{
   color: rgb(102, 102, 102);
   text-align: center;
 }
+
+.section3 {
+  background-color:#e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+}
+
+.quote{
+  font-size: 36px;
+  font-style:italic;
+  font-weight:lighter;
+  color: #1f2937;
+  
+}
+
+.author {
+  margin-top: 20px;
+  margin-left:40%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
